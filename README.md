@@ -1,5 +1,7 @@
 # Manus Memory Agent Kit
 
+> 我自己的链接 Obsidian 的数据库的 MCP，让所有的 Agent 都可以在我的云服务器上建立 Obsidian 的文档。
+
 这个仓库用于把同一个 **Manus Memory** 数据库共享给其他 Manus 账号、其他 Agent 或支持 MCP 的 AI 产品。核心原则是：**MCP 服务是正式读写入口，Skill 是行为说明书**。其他 Agent 真正访问数据库时应连接 MCP endpoint，并使用独立的 Bearer Token；Skill 只负责告诉 Agent 何时保存、如何命名、如何检索，以及哪些内容不能保存。
 
 > 安全边界：本仓库不包含真实 token、不包含 SQLite 数据库、不包含 `.env` 文件，也不包含任何用户记忆内容。真实密钥只能放在服务器 `.env`、目标 Agent 的私密连接器配置或环境变量中。
