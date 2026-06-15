@@ -1,0 +1,2 @@
+# manus-memory-agent-kit
+我自己的链接obsidian的数据库的mcp，让所有的agent都可以在我的云服务器上建立obsidian的文档
